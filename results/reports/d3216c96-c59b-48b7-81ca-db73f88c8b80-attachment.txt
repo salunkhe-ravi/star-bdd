@@ -1,0 +1,18 @@
+[32mINFO    [0m <module>:conftest.py:17 ############ Scenario ==>> ||| Basic Wikipedia Search1 ||| Started ############
+[32mINFO    [0m <module>:conftest.py:25 ############ Executing Step ==>> ||| the wikipedia home page is displayed ||| ############
+[32mINFO    [0m <module>:conftest.py:29 ############ Step ==>> ||| the wikipedia home page is displayed ||| Execution completed ############
+[32mINFO    [0m <module>:conftest.py:25 ############ Executing Step ==>> ||| the user searches for "<name>" ||| ############
+[32mINFO    [0m WrapperFunctions:wrappers.py:69 Element found with locator ==> search and locator_type ==> name
+[32mINFO    [0m WrapperFunctions:wrappers.py:86 Entered amitabh bachchan on element with locator ==> search and locator_type ==> name
+[32mINFO    [0m WrapperFunctions:wrappers.py:69 Element found with locator ==> //i[text()='Search'] and locator_type ==> xpath
+[32mINFO    [0m WrapperFunctions:wrappers.py:150 Clicked on element with locator ==> //i[text()='Search'] locator_type ==> xpath
+[32mINFO    [0m <module>:conftest.py:29 ############ Step ==>> ||| the user searches for "<name>" ||| Execution completed ############
+[32mINFO    [0m <module>:conftest.py:25 ############ Executing Step ==>> ||| results are shown for "<name>" ||| ############
+[32mINFO    [0m WrapperFunctions:wrappers.py:69 Element found with locator ==> firstHeading and locator_type ==> id
+[32mINFO    [0m WrapperFunctions:wrappers.py:104 Element text captured as Amitabh Bachchan on element with locator ==> firstHeading and locator_type ==> id
+[32mINFO    [0m WrapperFunctions:wrappers.py:228 ASSERTION :: Actual Value = Amitabh Bachchan with Expected Value as = amitabh bachchan
+[32mINFO    [0m WrapperFunctions:wrappers.py:69 Element found with locator ==> (//th[@scope='row']//following::td[@class='nickname'])[1] and locator_type ==> xpath
+[32mINFO    [0m WrapperFunctions:wrappers.py:104 Element text captured as Angry Young Man, Shahenshah of Bollywood, Star of the Millennium, and Big B on element with locator ==> (//th[@scope='row']//following::td[@class='nickname'])[1] and locator_type ==> xpath
+[32mINFO    [0m WrapperFunctions:wrappers.py:228 ASSERTION :: Actual Value = Angry Young Man, Shahenshah of Bollywood, Star of the Millennium, and Big B with Expected Value as = Sachin
+[32mINFO    [0m <module>:conftest.py:29 ############ Step ==>> ||| results are shown for "<name>" ||| Execution completed ############
+[32mINFO    [0m <module>:conftest.py:21 ############ Scenario ==>> ||| Basic Wikipedia Search1 ||| Ended ############

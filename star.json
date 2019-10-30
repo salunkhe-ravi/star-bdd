@@ -1,0 +1,46 @@
+{
+  "WEB": {
+    "URLS": {
+      "QA": "https://www.wikipedia.org/",
+      "STAGING": "",
+      "PROD": "",
+      "DEV": ""
+    },
+    "BROWSER_MAPPING": {
+      "BASIC_WIKIPEDIA_SEARCH1": "CHROME",
+      "BASIC_WIKIPEDIA_SEARCH2": "CHROME"
+    }
+  },
+  "MOBILE": {
+    "DEVICE_COUNT": "2",
+    "DEVICE_LIST": {
+      "DEVICE_1": {
+      },
+      "DEVICE_2": {
+      },
+      "DEVICE_3": {
+      }
+    }
+  },
+  "API": {
+    "END_POINT": ""
+  },
+  "DB": {
+    "MSSQL": {
+      "DRIVER": "{SQL Server};",
+      "SERVER": "IN-MH1LPW101177;",
+      "DATABASE": "db1;",
+      "TRUSTED_CONNECTION": "yes;"
+    },
+    "ORACLE": {},
+    "MONGODB": {},
+    "POSTGRESQL": {}
+  },
+  "REPORTING": "ALLURE",
+  "PROJECT_NAME": "CORE TEAM",
+  "DEVELOPED BY": "RAVI SALUNKHE",
+  "MODIFIED BY": "<project specific>",
+  "FRAMEWORK AUTHOR": "RAVI SALUNKHE(RAVI.SALUNKHE@MASTEK.COM)",
+  "TEST_TYPE": "WEB",
+  "VERSION": "0.8.5"
+}

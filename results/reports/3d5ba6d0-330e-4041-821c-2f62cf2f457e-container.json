@@ -1,0 +1,13 @@
+{
+  "uuid": "cc0e1744-4ea2-4f0a-b5aa-fae6d10ed3f7",
+  "befores": [
+    {
+      "name": "pytestbdd_given_the wikipedia home page is displayed",
+      "status": "passed",
+      "start": 1572000914292,
+      "stop": 1572000914292
+    }
+  ],
+  "start": 1572000914292,
+  "stop": 1572000934171
+}

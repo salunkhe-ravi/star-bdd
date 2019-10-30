@@ -1,0 +1,13 @@
+{
+  "uuid": "5cabe515-254d-4b3a-82c3-e3f5edfe7217",
+  "befores": [
+    {
+      "name": "pytestbdd_then_results are shown for \"<name>\"",
+      "status": "passed",
+      "start": 1572000905436,
+      "stop": 1572000905436
+    }
+  ],
+  "start": 1572000905436,
+  "stop": 1572000906435
+}

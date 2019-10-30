@@ -1,0 +1,191 @@
+{
+  "name": "test_basic_wikipedia_search1[amitabh bachchan]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ncore\\wrappers.py:227: AssumptionFailure\n>>\tpytest.assume(actual_text == expected_text)\nAssertionError: assert False\n\ncore\\wrappers.py:227: AssumptionFailure\n>>\tpytest.assume(actual_text == expected_text)\nAssertionError: assert False",
+    "trace": "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               2 Failed Assumptions:\nE               \nE               core\\wrappers.py:227: AssumptionFailure\nE               >>\tpytest.assume(actual_text == expected_text)\nE               AssertionError: assert False\nE               \nE               core\\wrappers.py:227: AssumptionFailure\nE               >>\tpytest.assume(actual_text == expected_text)\nE               AssertionError: assert False\n\nvenv\\lib\\site-packages\\six.py:692: FailedAssumption"
+  },
+  "description": "D:\\Study\\star-bdd\\tests\\features\\web.feature: Basic Wikipedia Search1",
+  "steps": [
+    {
+      "name": "enter_text_in_searchbox",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "report_logger",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "enter_text_in_searchbox",
+              "status": "passed",
+              "start": 1572000933517,
+              "stop": 1572000933517
+            }
+          ],
+          "parameters": [
+            {
+              "name": "step_name",
+              "value": "'enter_text_in_searchbox'"
+            },
+            {
+              "name": "log_details",
+              "value": "'enter_text_in_searchbox log details'"
+            }
+          ],
+          "start": 1572000933517,
+          "stop": 1572000933517
+        }
+      ],
+      "parameters": [
+        {
+          "name": "search_text",
+          "value": "'amitabh bachchan'"
+        }
+      ],
+      "start": 1572000923926,
+      "stop": 1572000933517
+    },
+    {
+      "name": "verify_text_equals",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "actual_text",
+          "value": "'Amitabh Bachchan'"
+        },
+        {
+          "name": "expected_text",
+          "value": "'amitabh bachchan'"
+        }
+      ],
+      "start": 1572000933587,
+      "stop": 1572000933602
+    },
+    {
+      "name": "report_logger",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "verify_header_text",
+          "status": "passed",
+          "start": 1572000933602,
+          "stop": 1572000933602
+        }
+      ],
+      "parameters": [
+        {
+          "name": "step_name",
+          "value": "'verify_header_text'"
+        },
+        {
+          "name": "log_details",
+          "value": "'verify_header_text log details'"
+        }
+      ],
+      "start": 1572000933602,
+      "stop": 1572000933602
+    },
+    {
+      "name": "verify_text_equals",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "actual_text",
+          "value": "'Angry Young Man, Shahenshah of Bollywood, Star of the Millennium, and Big B'"
+        },
+        {
+          "name": "expected_text",
+          "value": "'Sachin'"
+        }
+      ],
+      "start": 1572000933678,
+      "stop": 1572000933689
+    },
+    {
+      "name": "report_logger",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "verify_full_name_text",
+          "status": "passed",
+          "start": 1572000933690,
+          "stop": 1572000933690
+        }
+      ],
+      "parameters": [
+        {
+          "name": "step_name",
+          "value": "'verify_full_name_text'"
+        },
+        {
+          "name": "log_details",
+          "value": "'verify_full_name_text log details'"
+        }
+      ],
+      "start": 1572000933689,
+      "stop": 1572000933690
+    }
+  ],
+  "attachments": [
+    {
+      "name": "Screenshot",
+      "source": "51059c89-f0d8-4a93-925e-d885747b2681-attachment.png",
+      "type": "image/png"
+    },
+    {
+      "name": "log",
+      "source": "d3216c96-c59b-48b7-81ca-db73f88c8b80-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'amitabh bachchan'"
+    }
+  ],
+  "start": 1572000914291,
+  "stop": 1572000933690,
+  "uuid": "1760eb25-f12a-42d0-8552-f45ac6d5f6d0",
+  "historyId": "f83d3d4dd79f59abe2052b493536c03b",
+  "testCaseId": "845e39703c1b90cf72ce16d8fd6582d4",
+  "fullName": "tests.step_defs.test_web#test_basic_wikipedia_search1",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "sachin"
+    },
+    {
+      "name": "tag",
+      "value": "web"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests.step_defs"
+    },
+    {
+      "name": "suite",
+      "value": "test_web"
+    },
+    {
+      "name": "host",
+      "value": "IN-MH1LPW101177"
+    },
+    {
+      "name": "thread",
+      "value": "5868-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.step_defs.test_web"
+    }
+  ]
+}

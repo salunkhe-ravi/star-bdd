@@ -1,0 +1,13 @@
+{
+  "uuid": "af06368f-8480-457a-beef-588260fd7a9b",
+  "befores": [
+    {
+      "name": "pytestbdd_when_the user searches for \"<name>\"",
+      "status": "passed",
+      "start": 1572000902427,
+      "stop": 1572000902427
+    }
+  ],
+  "start": 1572000902427,
+  "stop": 1572000906437
+}

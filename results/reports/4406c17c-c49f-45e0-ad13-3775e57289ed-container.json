@@ -1,0 +1,13 @@
+{
+  "uuid": "3c8c769b-9fe3-4bc0-82ca-f1e9f985f7ed",
+  "befores": [
+    {
+      "name": "navigate_to_app_homepage",
+      "status": "passed",
+      "start": 1572000889647,
+      "stop": 1572000902426
+    }
+  ],
+  "start": 1572000889647,
+  "stop": 1572000906438
+}
