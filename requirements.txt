@@ -16,7 +16,7 @@ Mako==1.1.0
 MarkupSafe==1.1.1
 more-itertools==7.2.0
 namedlist==1.7
-numpy==1.17.2
+numpy==1.22.0
 openpyxl==3.0.0
 packaging==19.2
 pandas==0.25.1
