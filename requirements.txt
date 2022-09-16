@@ -12,7 +12,7 @@ greenlet==0.4.15
 importlib-metadata==0.23
 jdcal==1.4.1
 lxml==4.4.1
-Mako==1.1.0
+Mako==1.2.2
 MarkupSafe==1.1.1
 more-itertools==7.2.0
 namedlist==1.7
